@@ -1,0 +1,68 @@
+87  chef-client -zr "recipe[apache],recipe[workstation]"
+   88  cd /tmp
+   89  ls
+   90  unzip chef-starter\ \(2\).zip
+   91  apt install unzip
+   92  unzip chef-starter\ \(2\).zip
+   93  ls
+   94  mv chef-repo /root
+   95  ls
+   96  cd /root
+   97  ls
+   98  cd chef-repo/
+   99  ls
+  100  cd roles/
+  101  ls
+  102  cd ..
+  103  cd cookbooks/
+  104  ls
+  105  cd starter/
+  106  ls
+  107  cd attributes/
+  108  ls
+  109  cd ..
+  110  ls -l
+  111  cdd ..
+  112  cd ..
+  113  ls -l
+  114  cd cookbooks/
+  115  ls -la
+  116  cd ..
+  117  ls -la
+  118  cd .chef/
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd cookbooks/
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd cookbooks/
+  127  ls
+  128  mv apache /root/chef-repo/cookbooks/
+  129  mv workstation /root/chef-repo/cookbooks/
+  130  cd /root
+  131  ls
+  132  cd chef-repo/
+  133  ls
+  134  cd cookbooks/
+  135  ls
+  136  cd ..
+  137  knife client list
+  138  knife --help
+  139  knife cookbook list
+  140  knife cookbook upload workstation
+  141  knife cookbook upload apache
+  142  cd /tmp
+  143  ls
+  144  unzip chef-starter\ \(2\).zip
+  145  ls
+  146  cd /root
+  147  ls
+  148  cd chef-repo/
+  149  ls
+  150  cd cookbooks/
+  151  ls
+  152  knife cookbook list
+  153  history
+root@ip-172-31-46-153:~/chef-repo/cookbooks#
