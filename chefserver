@@ -11,3 +11,15 @@ root@chef-geek:~# history
    10  ls
    11  dpkg -i chef-server-core_13.0.61-1_amd64.deb
    12  history
+15  chef-server-ctl reconfigure
+   16  chef-server-ctl status
+   17  clear
+   18  mkdir .chef
+   19  cd .chef/
+   20  chef-server-ctl user-create admin Chef Geek gopal1409@gmail.com 'geekpass' --filename chefadmin.pem
+   21  ls
+   22  chef-server-ctl user-list
+   23  chef-server-ctl org-create chef-org "Gekk Chef Infra" --association_user admin --filename chef-org.pem
+   24  chef-server-ctl org-list
+   25  history
+root@chef-ge
