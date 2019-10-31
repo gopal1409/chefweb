@@ -23,3 +23,8 @@ root@chef-geek:~# history
    24  chef-server-ctl org-list
    25  history
 root@chef-ge
+27  chef-server-ctl install chef-manage
+   28  chef-server-ctl reconfigure
+   29  chef-manage-ctl reconfigure
+   30  chef-manage-ctl reconfigure --accept-license
+   31  history
