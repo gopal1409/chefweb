@@ -1,0 +1,13 @@
+root@chef-geek:~# history
+    1  clear
+    2  apt-get update
+    3  apt-get upgrade
+    4  history
+    5  hostnamectl set-hostname chef-geek
+    6  vi /etc/hosts
+    7  history
+    8  reboot
+    9  wget https://packages.chef.io/files/current/chef-server/13.0.61/ubuntu/18.04/chef-server-core_13.0.61-1_amd64.deb
+   10  ls
+   11  dpkg -i chef-server-core_13.0.61-1_amd64.deb
+   12  history
